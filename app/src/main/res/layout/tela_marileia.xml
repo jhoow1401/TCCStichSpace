@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey">
+
+
+    <View
+        android:id="@+id/containerTop2"
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        android:layout_marginTop="428dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/containerTop"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:background="@color/dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="157dp"
+            android:layout_height="85dp"
+            android:src="@drawable/logo"
+            app:layout_constraintBottom_toBottomOf="@id/containerTop"
+            app:layout_constraintEnd_toEndOf="@+id/containerTop"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/containerTop"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp"
+            android:text="Contato"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="231dp"
+            android:layout_height="33dp"
+            android:text="Telefone : (+55) 11 94671-2055"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="695dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="228dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginBottom="10dp"
+        android:text="Mariléia"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerTop"
+        app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="337dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="189dp"
+            android:layout_marginBottom="28dp"
+            android:text="Olá! Meu nome é Mariléia e trabalho confeccionando roupas do zero, para pessoas especifícas, como fantasias, e roupa para eventos"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/containerTop2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/containerTop"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="71dp"
+            android:layout_height="47dp"
+            android:layout_marginBottom="22dp"
+            app:layout_constraintBottom_toBottomOf="@+id/containerTop"
+            app:layout_constraintEnd_toEndOf="@+id/containerTop"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.8"
+            app:srcCompat="@drawable/baseline_menu_24" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="272dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="95dp"
+            android:text="confira meus trabalhos abaixo :"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/containerTop2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView9"
+            app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="140dp"
+        android:layout_height="180dp"
+        app:layout_constraintBottom_toBottomOf="@+id/containerTop2"
+        app:layout_constraintEnd_toEndOf="@+id/containerTop2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/containerTop2"
+        app:srcCompat="@drawable/trabalho_costmedida1" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="221dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginBottom="44dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/containerTop"
+        app:srcCompat="@drawable/marileia" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="139dp"
+        android:layout_height="192dp"
+        app:layout_constraintBottom_toBottomOf="@+id/containerTop2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/containerTop2"
+        app:layout_constraintVertical_bias="0.629"
+        app:srcCompat="@drawable/trabalho_costmedida2" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="122dp"
+        android:layout_height="192dp"
+        app:layout_constraintBottom_toBottomOf="@+id/containerTop2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/containerTop2"
+        app:layout_constraintTop_toTopOf="@+id/containerTop2"
+        app:layout_constraintVertical_bias="0.629"
+        app:srcCompat="@drawable/trabalho_costmedida3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

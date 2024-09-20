@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+
+    <View
+        android:id="@+id/containerTop"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="@color/dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="210dp"
+        android:layout_height="65dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"></ImageView>
+
+    <TextView
+        android:id="@+id/mensagem2"
+        android:layout_width="390dp"
+        android:layout_height="34dp"
+        android:text="ENCONTRE AS MELHORES OPÇÕES DE COSTURA AQUI"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.287"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/mensagem3"
+        android:layout_width="310dp"
+        android:layout_height="46dp"
+        android:text="Busque por Algum serviço do seu interesse e descubra coisas incríveis !"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mensagem2"
+        app:layout_constraintVertical_bias="0.035"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/telaInicialComoFunc"
+        android:layout_width="131dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="180dp"
+        android:backgroundTint="#0083FE"
+        android:onClick="TelaInicial"
+        android:text="SAIBA MAIS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mensagem3"
+        app:layout_constraintVertical_bias="0.402" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

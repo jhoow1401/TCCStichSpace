@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_baixo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:ignore="ExtraText">
+
+
+    <View
+        android:id="@+id/containerTop"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="@color/dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="210dp"
+        android:layout_height="65dp"
+        android:background="@color/dark"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019"></ImageView>
+
+
+    <View
+        android:id="@+id/action_container_inicio"
+        android:layout_width="413dp"
+        android:layout_height="247dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@color/dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerTop"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="171dp"
+        android:layout_height="187dp"
+        android:layout_marginStart="209dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/action_container_inicio"
+        app:layout_constraintEnd_toEndOf="@+id/action_container_inicio"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.892"
+        app:srcCompat="@drawable/como_funcio" />
+
+
+    <TextView
+        android:id="@+id/textComoFunci"
+        android:layout_width="196dp"
+        android:layout_height="28dp"
+        android:freezesText="false"
+        android:text="COMO FUNCIONAMOS?"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="205dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="179dp"
+        android:text="O Stith Space é um sistema projetado para costureiras e ateliês que desejam otimizar suas operações e oferecer um atendimento personalizado."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/action_container_inicio"
+        app:layout_constraintEnd_toEndOf="@+id/action_container_inicio"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/action_container_inicio"
+        app:layout_constraintTop_toTopOf="@+id/action_container_inicio"
+        app:layout_constraintVertical_bias="0.661" />
+
+    <View
+        android:id="@+id/container_baixo"
+        android:layout_width="417dp"
+        android:layout_height="327dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerTop"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="DuplicateIds" />
+
+
+
+    <View
+        android:id="@+id/container_maria"
+        android:layout_width="127dp"
+        android:layout_height="151dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerTop"
+        app:layout_constraintVertical_bias="0.652" />
+
+    <View
+        android:id="@+id/container_luiza"
+        android:layout_width="128dp"
+        android:layout_height="156dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerTop"
+        app:layout_constraintVertical_bias="0.657"
+
+        />
+
+    <ImageView
+        android:id="@+id/imagemluzia"
+        android:layout_width="125dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container_luiza"
+        app:layout_constraintEnd_toEndOf="@+id/container_luiza"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/container_luiza"
+        app:layout_constraintTop_toTopOf="@+id/container_luiza"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/luzia" />
+
+    <TextView
+        android:id="@+id/textoluzia3"
+        android:layout_width="60dp"
+        android:layout_height="24dp"
+        android:text="Luzia"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/container_luiza"
+        app:layout_constraintEnd_toEndOf="@+id/container_luiza"
+        app:layout_constraintStart_toStartOf="@+id/container_luiza"
+        app:layout_constraintTop_toBottomOf="@+id/imagemluzia"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="1dp"
+        android:text="modelista"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/verMaisLuzia"
+        app:layout_constraintEnd_toEndOf="@+id/container_luiza"
+        app:layout_constraintStart_toStartOf="@+id/container_luiza"
+        app:layout_constraintTop_toBottomOf="@+id/textoluzia"
+        app:layout_constraintVertical_bias="0.333" />
+
+
+    <Button
+        android:id="@+id/verMaisLuzia"
+        android:layout_width="123dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="105dp"
+        android:backgroundTint="@color/blue"
+        android:text="ver mais"
+        app:layout_constraintBottom_toBottomOf="@+id/container_luiza"
+        app:layout_constraintEnd_toEndOf="@+id/container_luiza"
+        app:layout_constraintStart_toStartOf="@+id/container_luiza"
+        app:layout_constraintTop_toTopOf="@+id/container_luiza"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <View
+        android:id="@+id/container_joana"
+        android:layout_width="126dp"
+        android:layout_height="158dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerTop"
+        app:layout_constraintVertical_bias="0.66" />
+
+    <ImageView
+        android:id="@+id/imagemjoana"
+        android:layout_width="125dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container_joana"
+        app:layout_constraintEnd_toEndOf="@+id/container_joana"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/container_joana"
+        app:layout_constraintTop_toTopOf="@+id/container_joana"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/joana"/>
+
+    <TextView
+        android:id="@+id/textojoana1"
+        android:layout_width="60dp"
+        android:layout_height="24dp"
+        android:text="Joana"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/container_joana"
+        app:layout_constraintEnd_toEndOf="@+id/container_joana"
+        app:layout_constraintStart_toStartOf="@+id/container_joana"
+        app:layout_constraintTop_toBottomOf="@+id/imagemjoana"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/verMaisjoana"
+        android:layout_width="123dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="105dp"
+        android:backgroundTint="@color/blue"
+        android:text="ver mais"
+        app:layout_constraintBottom_toBottomOf="@+id/container_joana"
+        app:layout_constraintEnd_toEndOf="@+id/container_joana"
+        app:layout_constraintStart_toStartOf="@+id/container_joana"
+        app:layout_constraintTop_toTopOf="@+id/container_joana"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textjoana4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="1dp"
+        android:text="modelista"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/verMaisjoana"
+        app:layout_constraintEnd_toEndOf="@+id/container_joana"
+        app:layout_constraintStart_toStartOf="@+id/container_joana"
+        app:layout_constraintTop_toBottomOf="@+id/textoluzia"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <TextView
+        android:id="@+id/textoluzia"
+        android:layout_width="60dp"
+        android:layout_height="24dp"
+        android:text="Luzia"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/container_luiza"
+        app:layout_constraintEnd_toEndOf="@+id/container_luiza"
+        app:layout_constraintStart_toStartOf="@+id/container_luiza"
+        app:layout_constraintTop_toBottomOf="@+id/imagemluzia"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <View
+        android:id="@+id/container_francisco"
+        android:layout_width="127dp"
+        android:layout_height="159dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerTop"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imagemfrancisco"
+        android:layout_width="119dp"
+        android:layout_height="54dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container_francisco"
+        app:layout_constraintEnd_toEndOf="@+id/container_francisco"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="@+id/container_francisco"
+        app:layout_constraintTop_toTopOf="@+id/container_francisco"
+        app:layout_constraintVertical_bias="0.076"
+        app:srcCompat="@drawable/francisco1" />
+
+    <TextView
+        android:id="@+id/textofrancisco2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="40dp"
+        android:text="alfaiate"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/container_francisco"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textfransico1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textfransico1"
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="56dp"
+        android:text="Francisco"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/container_francisco"
+        app:layout_constraintEnd_toEndOf="@+id/container_francisco"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="@+id/container_francisco"
+        app:layout_constraintTop_toBottomOf="@+id/imagemfrancisco"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/verMaisFrancisco"
+        android:layout_width="125dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="11dp"
+        android:backgroundTint="@color/blue"
+        android:text="ver mais"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/container_francisco"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/container_francisco"
+        app:layout_constraintTop_toTopOf="@+id/textofrancisco2"
+        app:layout_constraintVertical_bias="1.0"></Button>
+
+
+    <View
+        android:id="@+id/container_cicera"
+        android:layout_width="130dp"
+        android:layout_height="159dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerTop"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imagemcicera"
+        android:layout_width="123dp"
+        android:layout_height="53dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container_cicera"
+        app:layout_constraintEnd_toEndOf="@+id/container_cicera"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/container_cicera"
+        app:layout_constraintTop_toTopOf="@+id/container_cicera"
+        app:layout_constraintVertical_bias="0.075"
+        app:srcCompat="@drawable/cicera" />
+
+    <TextView
+        android:id="@+id/textocicera1"
+        android:layout_width="84dp"
+        android:layout_height="24dp"
+        android:text="cícera"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/container_baixo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagemcicera"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <TextView
+        android:id="@+id/textocicera2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="artesã"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/container_cicera"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="@+id/container_cicera"
+        app:layout_constraintTop_toBottomOf="@+id/textocicera1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/verMaiscicera"
+        android:layout_width="125dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="21dp"
+        android:backgroundTint="@color/blue"
+        android:text="ver mais"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/container_cicera"
+        app:layout_constraintStart_toStartOf="@+id/container_cicera"
+        app:layout_constraintTop_toTopOf="@+id/textocicera2" />
+
+    <View
+        android:id="@+id/container_marilene"
+        android:layout_width="126dp"
+        android:layout_height="159dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerTop"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imagemMaria"
+        android:layout_width="116dp"
+        android:layout_height="53dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container_maria"
+        app:layout_constraintEnd_toEndOf="@+id/container_maria"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/container_maria"
+        app:layout_constraintTop_toTopOf="@+id/container_maria"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/maria" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="71dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="22dp"
+        app:layout_constraintBottom_toBottomOf="@+id/containerTop"
+        app:layout_constraintEnd_toEndOf="@+id/containerTop"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/baseline_menu_24" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="66dp"
+        android:layout_height="19dp"
+        android:text="Maria"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/container_maria"
+        app:layout_constraintEnd_toEndOf="@+id/container_maria"
+        app:layout_constraintStart_toStartOf="@+id/container_maria"
+        app:layout_constraintTop_toBottomOf="@+id/imagemMaria"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/verMaisMaria"
+        android:layout_width="125dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/blue"
+        android:text="ver mais"
+        app:layout_constraintBottom_toBottomOf="@+id/container_maria"
+        app:layout_constraintEnd_toEndOf="@+id/container_maria"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="1dp"
+        android:text="estilista"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/verMaisMaria"
+        app:layout_constraintEnd_toEndOf="@+id/container_maria"
+        app:layout_constraintStart_toStartOf="@+id/container_maria"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.333" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
