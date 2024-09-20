@@ -6,5 +6,6 @@ import android.os.Bundle
 class Tela_Joana : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.tela_joana)
     }
 }

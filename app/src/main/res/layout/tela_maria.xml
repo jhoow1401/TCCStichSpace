@@ -147,18 +147,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/containerTop" />
 
-    <ImageView
-        android:id="@+id/imageView15"
-        android:layout_width="71dp"
-        android:layout_height="47dp"
-        android:layout_marginBottom="22dp"
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="65dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="12dp"
+        android:background="#D3121212"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="@+id/containerTop"
-        app:layout_constraintEnd_toEndOf="@+id/containerTop"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
         app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/baseline_menu_24" />
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/baseline_home_24" />
 
     <TextView
         android:id="@+id/textView11"

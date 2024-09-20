@@ -73,5 +73,33 @@
         app:layout_constraintTop_toBottomOf="@+id/mensagem3"
         app:layout_constraintVertical_bias="0.402" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="141dp"
+        android:layout_marginBottom="108dp"
+        android:backgroundTint="#0083FE"
+        android:text="Cadastrar-se"
+        android:textColorHighlight="#3F51B5"
+        android:textColorLink="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telaInicialComoFunc" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="259dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="58dp"
+        android:backgroundTint="#807E7E"
+        android:text="já tenho uma conta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.0" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
