@@ -37,9 +37,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.287"
+        app:layout_constraintVertical_bias="0.275"
         tools:ignore="TextSizeCheck" />
 
     <TextView
@@ -61,8 +62,8 @@
 
     <Button
         android:id="@+id/telaInicialComoFunc"
-        android:layout_width="131dp"
-        android:layout_height="60dp"
+        android:layout_width="139dp"
+        android:layout_height="56dp"
         android:layout_marginBottom="180dp"
         android:backgroundTint="#0083FE"
         android:onClick="TelaInicial"
@@ -71,10 +72,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mensagem3"
-        app:layout_constraintVertical_bias="0.402" />
+        app:layout_constraintVertical_bias="0.391" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/cadastrar1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="141dp"
@@ -86,19 +87,23 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/telaInicialComoFunc" />
+        app:layout_constraintTop_toBottomOf="@+id/telaInicialComoFunc"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/login"
         android:layout_width="259dp"
         android:layout_height="54dp"
         android:layout_marginTop="58dp"
-        android:backgroundTint="#807E7E"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#C1C1C1"
         android:text="já tenho uma conta"
+        android:textColor="#000000"
+        app:iconTint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="@+id/cadastrar1"
         app:layout_constraintVertical_bias="0.0" />
 
 

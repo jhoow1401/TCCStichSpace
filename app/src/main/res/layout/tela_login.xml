@@ -9,14 +9,15 @@
 
     <View
         android:id="@+id/containerlogin"
-        android:layout_width="413dp"
-        android:layout_height="257dp"
+        android:layout_width="412dp"
+        android:layout_height="283dp"
         android:background="@color/dark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.436" />
+        app:layout_constraintVertical_bias="0.446" />
 
     <View
         android:id="@+id/containerTop"
@@ -27,6 +28,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
+        android:id="@+id/imageView15"
         android:layout_width="210dp"
         android:layout_height="65dp"
         android:background="@color/dark"
@@ -53,7 +55,7 @@
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/containerTop"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.986" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
@@ -76,31 +78,42 @@
         android:id="@+id/button2"
         android:layout_width="156dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="240dp"
         android:backgroundTint="#0083FE"
         android:text="Entrar"
         android:textColorHighlight="#3F51B5"
         android:textColorLink="#3F51B5"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/containerlogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2"
-        app:layout_constraintVertical_bias="0.678" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/paracadatro"
         android:layout_width="259dp"
         android:layout_height="54dp"
-        android:layout_marginTop="125dp"
-        android:layout_marginBottom="88dp"
+        android:layout_marginBottom="36dp"
         android:backgroundTint="#807E7E"
-        android:text="já tenho uma conta"
+        android:text="ainda não tenho uma conta"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/containerlogin"
         app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/homelogin"
+        android:layout_width="74dp"
+        android:layout_height="59dp"
+        android:background="#D3121212"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="@+id/containerTop"
+        app:layout_constraintEnd_toEndOf="@+id/containerTop"
+        app:layout_constraintHorizontal_bias="0.855"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="@+id/containerTop"
+        app:layout_constraintVertical_bias="0.615"
+        app:srcCompat="@drawable/baseline_home_24" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

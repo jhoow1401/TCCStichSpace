@@ -17,8 +17,15 @@ public class TelaInicial extends Activity {
             Intent intent = new Intent(this, comoFuncionamos.class);
             startActivity(intent);
         });
-
-
-
+        Button login = findViewById(R.id.login);
+        login.setOnClickListener((v) -> {
+            Intent intent = new Intent(this, Tela_Login.class);
+            startActivity(intent);
+        });
+        Button cadastrar = findViewById(R.id.cadastrar1);
+        cadastrar.setOnClickListener((v) -> {
+            Intent intent = new Intent(this, Cadastro.class);
+            startActivity(intent);
+        });
     }
 }
